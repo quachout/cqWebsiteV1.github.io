@@ -581,7 +581,8 @@ div.fa-github:hover{
         left: 60%;
         transform: translate(-50%, -50%);
         /*center*/
-
+        
+        animation:fadeAndScale .8s ease-in;
     }
 
     .picMedia{
