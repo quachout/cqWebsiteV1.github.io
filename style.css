@@ -266,7 +266,7 @@ nav a:hover{
     left:50%;
     transform:translate(-50%,-50%);
     color: rgb(224, 214, 214);
-    bottom:-18px;
+    bottom:-15px;
     
 }
 
@@ -301,6 +301,11 @@ div.fa-linkedin:hover{
     
   
 
+}
+
+div.fa-github:hover{
+    color:white;
+    transform: scale(1.2);
 }
 
 /*socials*/
