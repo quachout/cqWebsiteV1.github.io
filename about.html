@@ -3,8 +3,13 @@
 <html>
 <link href="about.css" rel="stylesheet" type="text/css">
 <title>Chris Quach</title>
+
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Rosario:wght@300&display=swap" rel="stylesheet">
+
+
 <!--favicon-->
-<link rel="icon" type="image/png" href="photos/cqLogo.png" />
+<link rel="icon" type="image/png" href="photos/yzyLogoBlue.png" />
 <body>
     <!--nav bar-->
     <header>
@@ -41,13 +46,121 @@
     </header>
 
     <!--nav bar-->
+<!--og about html-->
 
 
 
-    <tr>
+<tr>
+    <td>
+        <h2 class="subheader">
+            About Me
+        </h2>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table class="table">
+            <tr>
+                <td class="companyLogo" >
+                    <img src="photos/uciLogo.png" alt="UCI logo">
+                </td>
+                <td class="descriptionTD">
+
+                    <p>
+                        I'm a third year <strong>Computer Science</strong> student under the Donald Bren School of Information and Computer Sciences at <strong>University of California, Irvine</strong>. In addition to my major, I'm pursuing a minor in Business Management. 
+                        <br>
+                        <br >
+                        When I'm not coding, you'll find me biking around Newport Beach or searching for the latest sneakers!
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+<div id="Projects"></div>
+
+
+<!--WHAT IVE DONE-->
+<div class="done" id="SWE intern" style="margin-top:0em;">What I've Done</div>
+
+    <!--RAYTHEON INTELLIGENCE AND SPACE-->
+<tr>
+    <td>
+        <h2 class="subheader2" style="color:white;text-decoration: underline;" >
+            Raytheon Intelligence & Space
+        </h2>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table class="table">
+            <tr>
+                <td class="companyLogo" >
+                    <img src="photos/raytheonTech.png" alt="UCI logo">
+                </td>
+                <td class="descriptionTD">
+                    <h3>
+                        <a style="color:white;">MSAVT Software Database</a>
+                    </h3>
+                    <p>
+                        As a Software Engineer Intern, my main project during this summer was the Modeling Sim and Verification Tool Software Database. Prior to my internship, MSAVT was using an Excel spreadsheet which was not efficient and hard to share since it would always get lost. The Digital Systems Integration Lab has a server with their own CMDB (configuration management database) which hasn't been used in over 10 years. So my task was to bring this back into use and create a similar one for MSAVT.
+                    </p>
+
+                </td>
+
+                
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <td class="companyLogo" >
+                    <img src="photos/raytheonTechcopy.png" alt="UCI logo">
+                </td>
+                <td class="descriptionTD">
+                    <h3>
+                        <a style="color:white;">SAR Simulation Learning Tool</a>
+                    </h3>
+                    <p>
+                        The Synthetic Aperture Radar Simulation Learning Tool is essentially a radar that is able to determine the distance and direction of a target. For this project, I had to collaborate with System Engineers to analyze and test MATLAB code.
+                    </p>
+
+                </td>
+
+                
+            </tr>
+        </table>
+
+        <table class="table">
+            <tr>
+                <td class="companyLogo" >
+                    <img src="photos/raytheonTechcopy.png" alt="UCI logo">
+                </td>
+                <td class="descriptionTD">
+                    <h3>
+                        <a style="color:white;">Acquired Secret Security Clearance</a>
+                    </h3>
+                    <p id="IT intern">
+                        Able to support programs with proprietary information.
+                    </p>
+
+                </td>
+
+                
+            </tr>
+            
+        </table>
+    </td>
+</tr>
+
+
+       <!--RAYTHEON SAS-->
+       <tr>
         <td>
-            <h2 class="subheader">
-                About Me
+            <h2 class="subheader3" style="color:white;text-decoration: underline;">
+                Raytheon Space & Airborne Systems
             </h2>
         </td>
     </tr>
@@ -55,49 +168,15 @@
         <td>
             <table class="table">
                 <tr>
-                    <td class="companyLogo" >
-                        <img src="photos/uciLogo.png" alt="UCI logo">
-                    </td>
-                    <td class="descriptionTD">
-
-                        <p>
-                            I'm a third year Computer Science student under the <a href="https://www.ics.uci.edu/" style="color: #7482a0">Donald Bren School of Information and Computer Sciences</a> at University of California, Irvine. In addition to my major, I'm pursuing a minor in Business Management. 
-                            <br>
-                            <br >
-                            When I'm not coding, you'll find me biking around Newport Beach or searching for the latest sneakers.
-                        </p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <div id="Projects"></div>
-
-
-    <!--WHAT IVE DONE-->
-    <div class="done" id="SWE intern">What I've Done</div>
-
-        <!--RAYTHEON INTELLIGENCE AND SPACE-->
-    <tr>
-        <td>
-            <h2 class="subheader2" style="color:white;text-decoration: underline;" >
-                Raytheon Intelligence & Space
-            </h2>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <table class="table">
-                <tr>
-                    <td class="companyLogo" >
-                        <img src="photos/raytheonTech.png" alt="UCI logo">
+                    <td class="companyLogo1" id="raytheon">
+                        <img src="photos/raytheonLogo.png" alt="UCI logo">
                     </td>
                     <td class="descriptionTD">
                         <h3>
-                            <a style="color:white;">MSAVT Software Database</a>
+                            <a style="color:white;">Machine Learning</a>
                         </h3>
                         <p>
-                            As a Software Engineer Intern, my main project during this summer was the Modeling Sim and Verification Tool Software Database. Prior to my internship, MSAVT was using an Excel spreadsheet which was not efficient and hard to share since it would always get lost. The Digital Systems Integration Lab has a server with their own CMDB (configuration management database) which hasn't been used in over 10 years. So my task was to bring this back into use and create a similar one for MSAVT.
+                            As an IT Intern, my favorite project during this summer was the machine learning project where I was able to learn more about ML and experiment with it. The purpose was to one day be able to install models at receiving docks across Raytheon campuses that would be able to verify packages.
                         </p>
 
                     </td>
@@ -107,12 +186,12 @@
             </table>
             <table class="table">
                 <tr>
-                    <td class="companyLogo" >
+                    <td class="companyLogo" id="DataLabTD">
                         <img src="photos/raytheonTechcopy.png" alt="UCI logo">
                     </td>
                     <td class="descriptionTD">
                         <h3>
-                            <a style="color:white;">SAR Simulation Learning Tool</a>
+                            <a style="color:white;">Goleta Raytheon Vision System Site</a>
                         </h3>
                         <p>
                             The Synthetic Aperture Radar Simulation Learning Tool is essentially a radar that is able to determine the distance and direction of a target. For this project, I had to collaborate with System Engineers to analyze and test MATLAB code.
@@ -126,14 +205,14 @@
 
             <table class="table">
                 <tr>
-                    <td class="companyLogo" >
+                    <td class="companyLogo" id="DataLabTD">
                         <img src="photos/raytheonTechcopy.png" alt="UCI logo">
                     </td>
                     <td class="descriptionTD">
                         <h3>
                             <a style="color:white;">Acquired Secret Security Clearance</a>
                         </h3>
-                        <p id="IT intern">
+                        <p id="washer">
                             Able to support programs with proprietary information.
                         </p>
 
@@ -145,158 +224,90 @@
             </table>
         </td>
     </tr>
+    <!--raytheon sas-->
 
 
-           <!--RAYTHEON SAS-->
-           <tr>
-            <td>
-                <h2 class="subheader3" style="color:white;text-decoration: underline;">
-                    Raytheon Space & Airborne Systems
-                </h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <table class="table">
-                    <tr>
-                        <td class="companyLogo1" id="raytheon">
-                            <img src="photos/raytheonLogo.png" alt="UCI logo">
-                        </td>
-                        <td class="descriptionTD">
-                            <h3>
-                                <a style="color:white;">Machine Learning</a>
-                            </h3>
-                            <p>
-                                As an IT Intern, my favorite project during this summer was the machine learning project where I was able to learn more about ML and experiment with it. The purpose was to one day be able to install models at receiving docks across Raytheon campuses that would be able to verify packages.
-                            </p>
-    
-                        </td>
-    
-                        
-                    </tr>
-                </table>
-                <table class="table">
-                    <tr>
-                        <td class="companyLogo" id="DataLabTD">
-                            <img src="photos/raytheonTechcopy.png" alt="UCI logo">
-                        </td>
-                        <td class="descriptionTD">
-                            <h3>
-                                <a style="color:white;">Goleta Raytheon Vision System Site</a>
-                            </h3>
-                            <p>
-                                The Synthetic Aperture Radar Simulation Learning Tool is essentially a radar that is able to determine the distance and direction of a target. For this project, I had to collaborate with System Engineers to analyze and test MATLAB code.
-                            </p>
-    
-                        </td>
-    
-                        
-                    </tr>
-                </table>
-    
-                <table class="table">
-                    <tr>
-                        <td class="companyLogo" id="DataLabTD">
-                            <img src="photos/raytheonTechcopy.png" alt="UCI logo">
-                        </td>
-                        <td class="descriptionTD">
-                            <h3>
-                                <a style="color:white;">Acquired Secret Security Clearance</a>
-                            </h3>
-                            <p id="washer">
-                                Able to support programs with proprietary information.
-                            </p>
-    
-                        </td>
-    
-                        
-                    </tr>
+      <!--Washing Machine-->
+      <tr>
+        <td>
+            <h2 class="subheader4" style="color:white; text-decoration: underline;">
+                Washing Machine
+            </h2>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table class="table">
+                <tr>
+                    <td class="companyLogo2" id="raytheon">
+                        <img src="photos/washer.png" alt="UCI logo">
+                    </td>
+                    <td class="descriptionTD">
+                        <h3>
+                            <a style="color:white;">Home Project</a>
+                        </h3>
+                        <p>
+                           My home washing machine always had issues and after each repairman's visit, it would break again soon enough. My parents were ready to through in the towel and purchase a new washer but I told them to let me take a chance with it. The machine threw many error codes and after deciphering them, I realized that the issue was the capacitors were swollen. So I went to fries and purchased 2 new ones for $10 and learned how to solder them back onto the motherboard. Like magic, the machine started to work again. Taking the risk of tinkering with the washer saved my parents at least $800.
+                        </p>
+
+                    </td>
+
                     
-                </table>
-            </td>
-        </tr>
-        <!--raytheon sas-->
+                </tr>
+            </table>
+        </td>
+    </tr>
+  
+    <!--washing machine-->
 
-
-          <!--Washing Machine-->
-          <tr>
-            <td>
-                <h2 class="subheader4" style="color:white; text-decoration: underline;">
-                    Washing Machine
-                </h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <table class="table">
-                    <tr>
-                        <td class="companyLogo2" id="raytheon">
-                            <img src="photos/washer.png" alt="UCI logo">
-                        </td>
-                        <td class="descriptionTD">
-                            <h3>
-                                <a style="color:white;">Home Project</a>
-                            </h3>
-                            <p>
-                               My home washing machine always had issues and after each repairman's visit, it would break again soon enough. My parents were ready to through in the towel and purchase a new washer but I told them to let me take a chance with it. The machine threw many error codes and after deciphering them, I realized that the issue was the capacitors were swollen. So I went to fries and purchased 2 new ones for $10 and learned how to solder them back onto the motherboard. Like magic, the machine started to work again. Taking the risk of tinkering with the washer saved my parents at least $800.
-                            </p>
     
-                        </td>
-    
-                        
-                    </tr>
-                </table>
-            </td>
-        </tr>
-      
-        <!--washing machine-->
 
-        <!--hobbies-->
-        <div class="done">Hobbies</div>
-
-
-    <div class="row" ></div>
-        <div class="hobbies">
-            
-            
-                <div class="column left">
-                    <h4>Swim</h4>
-                    <p>
-                        I started swimming when I was 7 years old and sadly retired when I entered college at 18. I do miss suiting up and getting on the blocks so I ocassionally hop in the pool every so often.
-                    </p>
-                    <div>
-                        <!--*swim pic*-->
-           
-                    </div>
-                </div>
-                
-
-                <div class="column middle">
-                    <h4>Sneakers</h4>
-                    
-                    <p>
-                        I'm a pretty big "sneakerhead" or in layman terms: sneaker collector. I didn't have much money growing up so I started buying and selling sneakers so I could afford ones that I really wanted. 
-                    </p>
-                    <div>
-                        <!--*shoe pic*-->
-                    </div>
-                </div>
-
-                <div class="column right">
-                    <h4>Cycling</h4>
-                    
-                    <p>
-                        Recently, I've started to pick up cycling. Biking through Newport Beach when the sun is down and the air is cold re-energizes me after a long day.
-                        
-                    </p>
-                    <div>
-                        <!--*bike pic*-->
-                    </div>
-                </div>
-
-        </div>
-    </div>
     <!--hobbies-->
+    <div class="done">Hobbies</div>
+
+
+<div class="row" ></div>
+    <div class="hobbies">
+        
+        
+            <div class="column left">
+                <h4>Swim</h4>
+                <p>
+                    I started swimming when I was 7 years old and sadly retired when I entered college at 18. I do miss suiting up and getting on the blocks so I ocassionally hop in the pool every so often.
+                </p>
+                <div>
+                    <!--*swim pic*-->
+       
+                </div>
+            </div>
+            
+
+            <div class="column middle">
+                <h4>Sneakers</h4>
+                
+                <p>
+                    I'm a pretty big "sneakerhead" or in layman terms: sneaker collector. I didn't have much money growing up so I started buying and selling sneakers so I could afford ones that I really wanted. 
+                </p>
+                <div>
+                    <!--*shoe pic*-->
+                </div>
+            </div>
+
+            <div class="column right">
+                <h4>Cycling</h4>
+                
+                <p>
+                    Recently, I've started to pick up cycling. Biking through Newport Beach when the sun is down and the air is cold re-energizes me after a long day.
+                    
+                </p>
+                <div>
+                    <!--*bike pic*-->
+                </div>
+            </div>
+
+    </div>
+</div>
+<!--hobbies-->
 
 </body>
 </html>
