@@ -10,7 +10,7 @@ body{
     margin:0 auto;
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
-    min-height: 200vh;
+    min-height: 100%;
     text-align: center;
 }
 
@@ -626,4 +626,67 @@ span{
 
 .personalWebsite{
     margin-left:10em;
+}
+
+
+/*skills*/
+
+
+.content_container {
+	
+	width: 100%; 
+	box-sizing: border-box;
+	display: inline-block; 
+	text-align: center;
+	min-height: 600px; 
+	margin: 0 ;
+	padding: 0px; 
+	padding-top: 3em;
+	padding-bottom: 50px;
+	color: black;
+    line-height: 28pt;
+    margin-top:3em;
+}
+
+.content_container h2 {
+	font-size: 2.5em;
+	padding: 60px; 
+	padding-bottom: 10px; 
+	padding-top: 80px; 
+}
+
+.content_container h3 {
+	font-size: 1.75em;
+	font-weight: normal;
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+}
+
+
+.col2 {
+	text-align: left; 
+	width: 50%; 
+	float: left; 
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top:0em;
+}
+
+.row .column {
+	width: 50%;
+	float: left; 
+}
+
+.row .column .info-list {
+	text-align: left; 
+	padding-left: 35%;
+	list-style-type: circle;
+}
+
+
+.shoePic{
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-left:-1.7em;
 }
