@@ -27,7 +27,7 @@ nav{
     min-height: 8vh;
     background-color:#87bbb8;
     position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    top:0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     box-shadow: 0 0 .6rem rgb(0,0,0.2);
     
@@ -50,6 +50,7 @@ nav{
     /*transition: all 0.5s ease-in;*/ /*this transition has prob w resizinf window*/
     font-family: 'M PLUS 1p', sans-serif;
     z-index:1;
+    
 }
 
 .nav-links li{
@@ -64,6 +65,7 @@ nav{
     letter-spacing: 3px;
     color:#444;
     font-size: 20px;
+    
 }
 
 .nav-links a:hover{
