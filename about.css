@@ -253,6 +253,7 @@ div.fa-github:hover{
     text-align: center;
     margin: 2em;
     color:white;
+
     
 }
 
@@ -304,6 +305,8 @@ div.fa-github:hover{
 .col2Intro{
     grid-column: 3/8;
     margin:auto;
+    max-width: 40em;
+
 }
 
 /*intro*/
@@ -332,6 +335,10 @@ div.fa-github:hover{
     display: none;
 }
 
+.hobs{
+    margin:0 auto;
+    max-width: 70em;
+}
 
 
 /*experience*/
@@ -655,7 +662,7 @@ footer {
 
 #RaytheonLogo img{
     width:150px;
-    margin-left:-2.9em;
+    margin-left:-3.3em;
 }
 
 #washer img{
