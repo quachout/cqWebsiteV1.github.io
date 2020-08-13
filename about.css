@@ -273,6 +273,7 @@ div.fa-github:hover{
     margin:auto;
     text-align: center;
     margin-top: 2.5em;
+    padding-top: 1em;
 }
 .title2{
     font-size: 35px;
@@ -661,8 +662,9 @@ footer {
 }
 
 #RaytheonLogo img{
-    width:150px;
-    margin-left:-3.3em;
+    width:150%;
+    margin-left:-2.5em;
+
 }
 
 #washer img{
